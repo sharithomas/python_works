@@ -10,10 +10,10 @@ Created on Wed Mar 11 14:15:09 2020
 n=int(input("enter limit"))
 square_list=[]
 
-def square_list():
+def square_fun():
     for x in range(1,n+1):
         square_list.append(x*x)
     print(square_list[-5:])
     
-print("last 5 elemnts from the square list",square_list())
+print("last 5 elemnts from the square list",square_fun())
     
