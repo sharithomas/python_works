@@ -9,6 +9,7 @@ Created on Thu Mar 12 13:13:40 2020
 #Example: If the following n is given as input to the program: 10 Then, the output of the program should be: 0,2,4,6,8,10
 
 n=int(input("enter value of n"))
+#function to find even numbers using yield
 def even_num():
     for i in range(n+1):
         if i%2==0:
