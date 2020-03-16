@@ -12,13 +12,12 @@ string=input("enter email address")
 index=0
 for i in string:
     if i=='@':
-        index_start=index+1
-    elif i=='.':
-        index_end=index
+        index_start=index
         break
-    else:
-        pass
     index=index+1
     
-company_name=string[index_start:index_end]
-print("company name:",company_name)
+#string after '@' and save to domain
+domain=string[index_start+1:]
+#split domain name with '.'
+company_name=domain.split('.')
+print("company name:",company_name[0])
