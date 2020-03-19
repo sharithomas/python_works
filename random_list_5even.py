@@ -5,7 +5,7 @@ Created on Thu Mar 19 08:21:17 2020
 @author: SHARI
 """
 
-#Please write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
+# write a program to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
 import random
 count=0
 list_out=[]
