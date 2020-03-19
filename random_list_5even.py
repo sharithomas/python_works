@@ -9,7 +9,7 @@ Created on Thu Mar 19 08:21:17 2020
 import random
 count=0
 list_out=[]
-while count<=5:
+while count<5:
     num=random.randint(100,200)
     if num%2==0:
         list_out.append(num)
