@@ -5,7 +5,7 @@ Created on Fri Jun  5 07:18:49 2020
 @author: SHARI
 """
 #Date:05/06/2020
-# Write a recursive function to calculate X power Y. X and Y inputs should be read from input 
+# Write a recursive function to calculate X power Y. X and Y inputs should be read from input. Negative values, zero's need to be checked and error should be thrown in TRY/Except block.
 x=int(input("enter value for x"))
 y=int(input("enter value for y"))
 
